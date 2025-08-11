@@ -38,10 +38,10 @@ The system streamlines **travel requests, expense tracking, reimbursements, and 
 
 
 ## Getting Started
-1. **Download** the [`BearcatWealth_Database.accdb`](BearcatWealth_Database.accdb) file from this repository.
+1. **Download** the [`BearcatWealth_Database.accdb`](BEARCATWEALTH%20Database.accdb) file from this repository.
 2. Open the file in **Microsoft Access** (or import tables into another RDBMS).
-3. Review the [ERD Diagram](ERD_Diagram.pdf) and [Normalization Document](Normalization_Document.pdf) for database structure.
-4. Run queries from [`Sample_Queries.sql`](Sample_Queries.sql) to explore data.
+3. Review the [ERD Diagram](erd_diagram.png) and [Normalization Document](normalization_steps.pdf) for database structure.
+4. Run queries from [`Sample_Queries.sql`](Queries%20for%20Scenario.pdf) to explore data.
 
 
 
