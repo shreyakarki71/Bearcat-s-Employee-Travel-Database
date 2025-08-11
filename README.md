@@ -27,8 +27,7 @@ BearcatWealth employees frequently travel to meet clients, host lunches, and att
 
 ## Files in Repository
 - `erd_diagram.png` – Entity Relationship Diagram  
-- `normalization_steps.pdf` – Normalization documentation  
-- `schema.sql` – Table creation scripts (DDL)  
+- `normalization_steps.pdf` – Normalization documentation   
 - `sample_data.sql` – Test dataset (DML)  
 - `queries.sql` – Analytical and operational queries  
 - `project_report.pdf` – Full project summary with business case, solution, and insights  
