@@ -11,7 +11,7 @@ The system streamlines **travel requests, expense tracking, reimbursements, and 
 - [ERD Diagram](erd_diagram.png) – Entity Relationship Diagram showing database schema design.  
 - [ Normalization Document](normalization_steps.pdf) – Step-by-step normalization process to achieve 3NF.  
 - [BearcatWealth Database (Access File)](BEARCATWEALTH%20Database.accdb) – Microsoft Access database implementation with tables, queries, and relationships.  
-- [Sample Queries](Sample_Queries.sql) – Example SQL queries to retrieve and analyze data.  
+- [Sample Queries](Queries%20for%20Scenario.pdf) – Example SQL queries to retrieve and analyze data.  
 
 ## Objectives
 - Replace manual processes with a centralized database.
