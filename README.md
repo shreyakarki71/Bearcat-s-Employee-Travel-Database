@@ -40,7 +40,7 @@ BearcatWealth employees frequently travel to meet clients, host lunches, and att
 - Average trip cost & duration
 
 ## Technologies Used
-- SQL (MySQL / PostgreSQL / SQLite — specify yours)
+- SQL (MySQL / PostgreSQL / SQLite/ ACCESS SQL)
 - Lucidchart / Draw.io for ERD
 - Microsoft Excel / Google Sheets for initial dataset cleanup
 
