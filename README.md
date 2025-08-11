@@ -8,7 +8,7 @@ The system streamlines **travel requests, expense tracking, reimbursements, and 
 
 ##  Repository Contents
 - [Final Report](BearcatWealth_%20Final%20Report%20.pdf) – Full project documentation, including business case, problem statement, and solution design.  
-- [ERD Diagram](ERD_Diagram.pdf) – Entity Relationship Diagram showing database schema design.  
+- [ERD Diagram](erd_diagram.png) – Entity Relationship Diagram showing database schema design.  
 - [ Normalization Document](Normalization_Document.pdf) – Step-by-step normalization process to achieve 3NF.  
 - [BearcatWealth Database (Access File)](BearcatWealth_Database.accdb) – Microsoft Access database implementation with tables, queries, and relationships.  
 - [Sample Queries](Sample_Queries.sql) – Example SQL queries to retrieve and analyze data.  
