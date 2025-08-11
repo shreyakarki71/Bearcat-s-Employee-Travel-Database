@@ -30,7 +30,7 @@ BearcatWealth employees frequently travel to meet clients, host lunches, and att
 - `normalization_steps.pdf` – Normalization documentation   
 - `sample_data.sql` – Test dataset (DML)  
 - `queries.sql` – Analytical and operational queries  
-- `BearcatWealth_ Final Report .pdf`[BearcatWealth_ Final Report .pdf] – Full project summary with business case, solution, and insights  
+- `BearcatWealth_ Final Report .pdf` – Full project summary with business case, solution, and insights  
 
 ## Example Reports
 - Total spend by department
