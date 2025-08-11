@@ -1,49 +1,47 @@
-# BearcatWealth Travel & Expense Management Database
+# 🗂 BearcatWealth Employee Travel & Expense Management Database
 
-This project designs and implements a **centralized SQL database** for BearcatWealth, a finance firm with extensive client-facing travel needs across the US. The system streamlines **travel requests, expense tracking, policy compliance, and vendor management**, replacing the firm’s manual and inefficient reporting process.
+## Project Overview
+This project was developed as part of a university SQL/Database Systems course to design and implement a **centralized travel and expense management system** for BearcatWealth — a finance firm with employees traveling across the U.S. to meet clients and manage business operations.  
 
-## Business Context
-BearcatWealth employees frequently travel to meet clients, host lunches, and attend conferences. Managing these expenses manually led to:
-- Delayed reimbursements
-- Lost receipts
-- Weak policy enforcement
-- Overspending due to unclear budgets
-- Vendor payment reconciliation issues
+The system streamlines **travel requests, expense tracking, reimbursements, and vendor management** while ensuring compliance with company policies.  
 
-## Project Objectives
-- Build a **normalized relational database** to store and manage all travel & expense records
-- Ensure **policy compliance** through automated checks
-- Provide **real-time budget tracking**
-- Streamline **vendor and payment management**
-- Support **transparent approvals** and faster reimbursements
 
-## Features Implemented
-- **ERD Design** – entity relationships for employees, trips, approvals, expenses, vendors, departments, and corporate cards
-- **Normalization** – up to 3NF to remove redundancy and maintain data integrity
-- **Database Schema** – creation of tables with primary/foreign keys, constraints, and indexes
-- **Sample Data Population** – INSERT statements for realistic demo data
-- **Query Scripts** – reports for budget tracking, top vendors, spend by category, and policy compliance
-- **Policy Enforcement** – max allowable spend per category (travel, meals, transportation) checked via queries
+##  Repository Contents
+- [Final Report](Final_Report.pdf) – Full project documentation, including business case, problem statement, and solution design.  
+- [ERD Diagram](ERD_Diagram.pdf) – Entity Relationship Diagram showing database schema design.  
+- [ Normalization Document](Normalization_Document.pdf) – Step-by-step normalization process to achieve 3NF.  
+- [BearcatWealth Database (Access File)](BearcatWealth_Database.accdb) – Microsoft Access database implementation with tables, queries, and relationships.  
+- [Sample Queries](Sample_Queries.sql) – Example SQL queries to retrieve and analyze data.  
 
-## Files in Repository
-- `erd_diagram.png` – Entity Relationship Diagram  
-- `normalization_steps.pdf` – Normalization documentation   
-- `sample_data.sql` – Test dataset (DML)  
-- `queries.sql` – Analytical and operational queries  
-- `BearcatWealth_ Final Report .pdf` – Full project summary with business case, solution, and insights  
+## Objectives
+- Replace manual processes with a centralized database.
+- Improve approval workflows for travel and expenses.
+- Enable real-time budget monitoring.
+- Ensure policy compliance for all expense categories.
+- Provide transparent financial tracking for departments and management.
 
-## Example Reports
-- Total spend by department
-- Pending vs. approved travel requests
-- Expenses exceeding policy limits
-- Vendor payment summaries
-- Average trip cost & duration
 
-## Technologies Used
-- SQL (MySQL / PostgreSQL / SQLite/ ACCESS SQL)
-- Lucidchart / Draw.io for ERD
-- Microsoft Excel / Google Sheets for initial dataset cleanup
+##  Features
+- **Travel Request Tracking** – Employee requests with destination, dates, estimated costs, and status.
+- **Expense Management** – Categorized expenses (meals, airfare, hotels) linked with receipts.
+- **Automated Approval Workflow** – Manager review and approval process.
+- **Vendor Management** – Records for airlines, hotels, and transportation vendors.
+- **Budget Monitoring** – Real-time tracking of allocated vs. spent amounts.
+- **Policy Enforcement** – Automated checks to ensure compliance with spending limits.
 
+
+##  Technologies Used
+- **Microsoft Access** – Database creation and implementation.
+- **SQL** – Querying, filtering, and reporting.
+- **Lucidchart / Draw.io** – ERD and schema design.
+- **Microsoft Word & Excel** – Report writing and documentation.
+
+
+## Getting Started
+1. **Download** the [`BearcatWealth_Database.accdb`](BearcatWealth_Database.accdb) file from this repository.
+2. Open the file in **Microsoft Access** (or import tables into another RDBMS).
+3. Review the [ERD Diagram](ERD_Diagram.pdf) and [Normalization Document](Normalization_Document.pdf) for database structure.
+4. Run queries from [`Sample_Queries.sql`](Sample_Queries.sql) to explore data.
 
 
 
